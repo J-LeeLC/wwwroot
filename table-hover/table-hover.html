@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>表格行悬停提示效果</title>
+</head>
+<style>
+    #table-hover{
+        width: 80%;
+        margin: 10px auto;
+        border-collapse: collapse;
+    }
+    thead{
+        font-weight: bold;
+        background-color: #f5f5f5;
+    }
+    td{
+        border: 1px solid #333333;
+        padding: 6px;
+        text-align: center;
+    }
+</style>
+<body>
+    <table id="table-hover">
+        <thead>
+            <tr>
+                <td>序号</td>
+                <td>学号</td>
+                <td>姓名</td>
+                <td>手机电话</td>
+                <td>QQ号</td>
+            </tr>
+        </thead>
+        <tbody id="body-hover">
+            <tr>
+                <td>1</td>
+                <td>2015553101</td>
+                <td>前端工程师1</td>
+                <td>13566990001</td>
+                <td>4498465741</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2015553102</td>
+                <td>前端工程师2</td>
+                <td>13566990002</td>
+                <td>4498465742</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>2015553103</td>
+                <td>前端工程师3</td>
+                <td>13566990003</td>
+                <td>4498465743</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>2015553104</td>
+                <td>前端工程师4</td>
+                <td>13566990004</td>
+                <td>4498465744</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>2015553105</td>
+                <td>前端工程师5</td>
+                <td>13566990005</td>
+                <td>4498465745</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+            var trs = document.getElementById("body-hover").getElementsByTagName("tr");
+            for(var row = 0, len = trs.length; row < len; row++){
+                trs[row].addEventListener("mouseover",function(){
+                   this.style.backgroundColor = "#f5f5f5";
+                   this.style.fontWeight = "bold";
+                });
+                trs[row].addEventListener("mouseout",function(){
+                   this.style.backgroundColor = "";
+                   this.style.fontWeight = "normal";
+                });
+            }
+    </script>
+</body>
+</html>

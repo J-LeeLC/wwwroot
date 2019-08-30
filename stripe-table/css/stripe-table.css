@@ -1,0 +1,29 @@
+.stripe{
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+.stripe caption{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.8em;
+}
+.stripe tr{
+    font-weight: normal;
+    background-color: #fff;
+}
+.stripe tr.active{
+    font-weight: bold;
+    background-color: #8ac007;
+}
+.stripe td,
+.stripe th{
+    font-size: 14px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.stripe .stripe-row{
+    background-color: #f9f9f9;
+}
