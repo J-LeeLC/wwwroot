@@ -10,7 +10,7 @@ galleryList.addEventListener("click",function(e){
     if(target.nodeName !== "IMG"){
         return;
     }
-    mask.getElementsByClassName.display = "block";
+    mask.style.display = "block";
     scrollTo(0,0);
     photo.src = target.getAttribute("src");
     figcaption.innerHTML = target.getAttribute("title");
