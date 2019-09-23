@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20161003 at Mon Sep 23 02:50:41 2019
+ By www-data
+Copyright (C) 2015 by original authors @ fontello.com
+</metadata>
+<defs>
+<font id="ma5galleryfont" horiz-adv-x="1000" >
+  <font-face 
+    font-family="ma5galleryfont"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="2 0 5 3 0 0 0 0 0 0"
+    ascent="850"
+    descent="-150"
+    bbox="-1.06569 -151 1000 849"
+    underline-thickness="0"
+    underline-position="10"
+    unicode-range="U+E802-E808"
+  />
+<missing-glyph 
+ />
+    <glyph glyph-name=".notdef" 
+ />
+    <glyph glyph-name=".notdef" 
+ />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" horiz-adv-x="333" 
+ />
+    <glyph glyph-name="info-circled" unicode="&#xe802;" horiz-adv-x="920" 
+d="M454 810q190 2 326 -130t139 -322t-130 -327t-323 -140t-327 130t-140 323t131 327t324 139zM506 658q-42 0 -65 -24t-23 -50q-2 -28 15 -44t49 -16q38 0 61 22t23 54q0 58 -60 58zM386 64q30 0 84 26t106 78l-18 24q-48 -36 -72 -36q-14 0 -4 38l42 160q26 96 -22 96
+q-30 0 -89 -29t-115 -75l16 -26q52 34 74 34q12 0 0 -34l-36 -152q-26 -104 34 -104z" />
+    <glyph glyph-name="dot-3" unicode="&#xe804;" horiz-adv-x="920" 
+d="M110 460q46 0 78 -32t32 -77t-32 -78t-78 -33t-78 33t-32 78t32 77t78 32zM460 460q46 0 78 -32t32 -77t-33 -78t-77 -33t-77 33t-33 78t32 77t78 32zM810 460q46 0 78 -32t32 -77t-32 -78t-78 -33t-78 33t-32 78t32 77t78 32z" />
+    <glyph glyph-name="search" unicode="&#xe805;" 
+d="M746 209l254 -255l-105 -105l-254 254q-106 -72 -232 -72q-169 0 -289 120t-120 289t120 289t289 120t289 -120t120 -289q0 -127 -72 -231zM681 440q0 113 -79 193t-193 80t-193 -80t-80 -193t80 -192t193 -80t193 80t79 192z" />
+    <glyph glyph-name="cancel-1" unicode="&#xe806;" 
+d="M654 349l346 -346l-154 -154l-346 346l-346 -346l-154 154l346 346l-346 346l154 154l346 -346l346 346l154 -154z" />
+    <glyph glyph-name="left-open-1" unicode="&#xe807;" horiz-adv-x="654" 
+d="M308 349l346 -346l-154 -154l-500 500l500 500l154 -154z" />
+    <glyph glyph-name="right-open-1" unicode="&#xe808;" horiz-adv-x="654" 
+d="M154 849l500 -500l-500 -500l-154 154l346 346l-346 346z" />
+  </font>
+</defs></svg>
