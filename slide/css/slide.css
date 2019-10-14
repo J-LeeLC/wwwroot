@@ -1,0 +1,100 @@
+.carousel {
+  /*设置轮播容器为相对定位，作为后代元素标题文字、指示器和左右翻页的定位祖先元素*/
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-inner > .item {
+  position: relative;
+  display: none;
+  transition: .6s ease-in-out left;
+}
+
+.carousel-inner > .active {
+  display: block;
+  left: 0;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+  vertical-align: middle;
+  border: 0;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 40px;
+  left: 15%;
+  z-index: 10;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+
+.carousel-indicators > li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #fff;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 72px;
+  line-height: 72px;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  width: 72px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.carousel-control.left {
+  left: 0;
+}
+
+.carousel-control.right {
+  right: 0;
+}
